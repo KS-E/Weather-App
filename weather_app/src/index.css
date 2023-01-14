@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    display:block;
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 5%;
+}
+
+.top-container {
+    display: flexbox;
+}
+
+form {
+    display: flex;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: baseline;
+    justify-content: center;
+    /* border: red solid 2px; */
+} 
+
+
+/* input field*/ 
+.input-box {
+width: 25%;
+height: 50px;
+margin-right: 5em;
+border-radius: 5px;
+padding: 0.5em;
+background-color: rgba(255, 255, 255, 0.7);
+}
+
+.weather-bttn {
+    height: 35px;
+    text-align: center;
+    padding: 0.5em auto;
+    color: rgb(228, 208, 208);
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    /* background-color: rgb(88, 88, 180); */
+    background-color: rgb(29, 56, 56);
+}
+
+.error-message {
+    border: 2px solid rgba(211, 203, 203, 0.7);
+    width: fit-content;
+    padding: 1% 2%;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: rgb(29, 56, 56);
+    font-weight: bold;
+    margin-top: 0.8em;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+}
+
+/* City name and Temp Only */
+.display-box{
+display: flex;
+margin-top: 3em;
+justify-content: space-evenly;
+}
+
+.city{
+    font-family: "Poppins", sans-serif;
+    font-size:70px;
+    color: rgb(29, 56, 56);
+    font-weight: 900;
+}
+
+.temp{
+    font-family: "Poppins", sans-serif;
+    margin-left: 3em;
+    font-size: 60px;
+    color: rgb(29, 56, 56);
+}
+
+/* bottom container with further details */
+.bottom-container {
+    padding: 1em;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 10%;
+    width: 60%;
+    border: 2px solid rgba(211, 203, 203, 0.7);
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right:auto;
+    margin-left: auto;
+    color: rgb(29, 56, 56);
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Comforter Brush', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.feels-like, .humidity {
+    margin-right: 0.5em;
+}
+
+
+
+
+
+
+
+

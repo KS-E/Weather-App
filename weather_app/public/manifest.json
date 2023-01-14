@@ -1,0 +1,12 @@
+{
+  "name": "Weather App Extension",
+  "description" : "Enter city name to check the current weather",
+  "version" : "1.0",
+  "manifest_version" : 2,
+   "action" : {
+        "default_popup" : "index.html",
+        "default_icon" : "icon_image.png"
+    },
+    "permissions" : [ "tabs" ]
+}
+
